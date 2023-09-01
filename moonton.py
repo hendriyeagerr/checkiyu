@@ -16,7 +16,7 @@
 ############################################################
 
 import os, sys, hashlib, json, random, re
-from get_proxy import proxy
+import proxy
 
 try:
   from concurrent.futures import ThreadPoolExecutor
@@ -48,7 +48,7 @@ except ImportError:
     'Please restart this tools'
   )
 
-api = 'https://mlapi.mobilelegends.com/v2.1/inapp/login'
+api = 'https://mtacc.mobilelegends.com/v2.1/inapp/login'
 
 class MOONTON:
   def __init__(self, url):
