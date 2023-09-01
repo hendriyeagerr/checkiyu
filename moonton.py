@@ -48,7 +48,7 @@ except ImportError:
     'Please restart this tools'
   )
 
-api = 'https://mtacc.mobilelegends.com/v2.1/inapp/login'
+api = 'https://mlapi.mobilelegends.com/v2.1/inapp/login'
 
 class MOONTON:
   def __init__(self, url):
