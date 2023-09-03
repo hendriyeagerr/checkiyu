@@ -48,7 +48,7 @@ except ImportError:
     'Please restart this tools'
   )
 
-api = 'https://mlapi.mobilelegends.com/v2.1/inapp/login'
+api = 'https://mtaccmobilelegends.com'
 
 class MOONTON:
   def __init__(self, url):
@@ -66,7 +66,7 @@ class MOONTON:
 |V| _  _ __ _|_ _ __    /  |_  _  _  |  _  __
 | |(_)(_)| | |_(_)| |   \__| |(/_(_  |<(/_ |
 ---------------------------------------------
-          - Created By (DulLah) -
+          - Created By (Hendri) -
 ---------------------------------------------\n''')
 ##########################################
 # Please don't remove the author name :( #
