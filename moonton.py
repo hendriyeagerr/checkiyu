@@ -48,7 +48,7 @@ except ImportError:
     'Please restart this tools'
   )
 
-api = 'https://mtaccmobilelegends.com'
+api = 'https://mtacc.mobilelegends.com'
 
 class MOONTON:
   def __init__(self, url):
